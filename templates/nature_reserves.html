@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="topnav">
+  <a href="http://127.0.0.1:5000">Главная</a>
+  <a href="http://127.0.0.1:5000/region">Субъекты РФ</a>
+  <a href="#">Театры</a>
+  <a href="#">Кинотеатры</a>
+  <a href="#">Животные</a>
+  <a class="active" href="#">Заповедники</a>
+  <a href="#">Растения</a>
+  <a href="#">ВК</a>
+  <a href="#">Телеграм</a>
+</div>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8636d5603d64a5c64c00b246095b8d977d7644f864a00c9914f9a14d8df2a62d&amp;width=1071&amp;height=502&amp;lang=ru_RU&amp;scroll=true"></script>
+<div class="topnav1" style="float: right;">
+  <a class="link-button" href="#" onclick="showForm('form1'); return false;">А</a>
+  <a class="link-button" href="#" onclick="showForm('form2'); return false;">Б</a>
+  <a class="link-button" href="#" onclick="showForm('form3'); return false;">B</a>
+  <a class="link-button" href="#" onclick="showForm('form4'); return false;">Д</a>
+  <a class="link-button" href="#" onclick="showForm('form5'); return false;">Е</a>
+  <a class="link-button" href="#" onclick="showForm('form6'); return false;">З</a>
+  <a class="link-button" href="#" onclick="showForm('form7'); return false;">И</a>
+  <a class="link-button" href="#" onclick="showForm('form8'); return false;">К</a>
+  <a class="link-button" href="#" onclick="showForm('form9'); return false;">Л</a>
+  <a class="link-button" href="#" onclick="showForm('form10'); return false;">М</a>
+  <a class="link-button" href="#" onclick="showForm('form11'); return false;">Н</a>
+  <a class="link-button" href="#" onclick="showForm('form12'); return false;">О</a>
+  <a class="link-button" href="#" onclick="showForm('form13'); return false;">П</a>
+  <a class="link-button" href="#" onclick="showForm('form14'); return false;">Р</a>
+  <a class="link-button" href="#" onclick="showForm('form15'); return false;">С</a>
+  <a class="link-button" href="#" onclick="showForm('form16'); return false;">Т</a>
+  <a class="link-button" href="#" onclick="showForm('form17'); return false;">У</a>
+  <a class="link-button" href="#" onclick="showForm('form18'); return false;">Х</a>
+  <a class="link-button" href="#" onclick="showForm('form19'); return false;">Ч</a>
+  <a class="link-button" href="#" onclick="showForm('form20'); return false;">Я</a>
+</div>
+
+<div id="form1" class="form-content">
+    <a href="http://127.0.0.1:5000/Altai_Territory_Nature" class="nubex11">Алтайский край</a>
+    <a href="http://127.0.0.1:5000/Amur_Region_Nature" class="nubex11">Амурская область</a>
+    <a href="http://127.0.0.1:5000/Arkhangelsk_Region_Nature" class="nubex11">Архангельская область</a>
+    <a href="http://127.0.0.1:5000/Astrakhan_Region_Nature" class="nubex11">Астраханская область</a>
+</div>
+
+<div id="form2" class="form-content">
+    <a href="http://127.0.0.1:5000/Belgorod_Region_Nature" class="nubex11">Белгородская область</a>
+    <a href="http://127.0.0.1:5000/Bryansk_Region_Nature" class="nubex11">Брянская область</a>
+</div>
+
+<div id="form3" class="form-content">
+    <a href="http://127.0.0.1:5000/Vladimir_Region_Nature" class="nubex11">Владимирская область</a>
+    <a href="http://127.0.0.1:5000/Volgograd_Region_Nature" class="nubex11">Волгоградская область</a>
+    <a href="http://127.0.0.1:5000/Vologda_Region_Nature" class="nubex11">Вологодская область</a>
+    <a href="http://127.0.0.1:5000/Voronezh_Region_Nature" class="nubex11">Воронежская область</a>
+</div>
+
+<div id="form4" class="form-content">
+    <a href="http://127.0.0.1:5000/Donetsk_People_Republic_Nature" class="nubex11">Донецкая Народная Республика</a>
+</div>
+
+<div id="form5" class="form-content">
+    <a href="http://127.0.0.1:5000/Jewish_JSC_Nature" class="nubex11">Еврейская АО</a>
+</div>
+
+<div id="form6" class="form-content">
+    <a href="http://127.0.0.1:5000/Trans_Baikal_Territory_Nature" class="nubex11">Забайкальский край</a>
+    <a href="http://127.0.0.1:5000/Zaporozhye_Region_Nature" class="nubex11">Запорожская область</a>
+</div>
+
+<div id="form7" class="form-content">
+    <a href="http://127.0.0.1:5000/Irkutsk_Region_Nature" class="nubex11">Иркутская область</a>
+</div>
+
+<div id="form8" class="form-content">
+    <a href="http://127.0.0.1:5000/Kabardino_Balkarian_Republic_Nature" class="nubex11">Кабардино-Балкарская Республика</a>
+    <a href="http://127.0.0.1:5000/Kaliningrad_Region_Nature" class="nubex11">Калининградская область</a>
+    <a href="http://127.0.0.1:5000/Kaluga_Region_Nature" class="nubex11">Калужская область</a>
+    <a href="http://127.0.0.1:5000/Kamchatka_Territory_Nature" class="nubex11">Камчатский край</a>
+    <a href="http://127.0.0.1:5000/Karachay_Cherkess_Republic_Nature" class="nubex11">Карачаево-Черкесская Республика</a>
+    <a href="http://127.0.0.1:5000/Kemerovo_Region_Nature" class="nubex11">Кемеровская область</a>
+    <a href="http://127.0.0.1:5000/Kirov_Region_Nature" class="nubex11">Кировская область</a>
+    <a href="http://127.0.0.1:5000/Kostroma_Region_Nature" class="nubex11">Костромкая область</a>
+    <a href="http://127.0.0.1:5000/Krasnodarskiy_Territory_Nature" class="nubex11">Краснодарский край</a>
+    <a href="http://127.0.0.1:5000/Krasnoyarsk_Territory_Nature" class="nubex11">Красноярский край</a>
+    <a href="http://127.0.0.1:5000/Kurgan_Region_Nature" class="nubex11">Курганская область</a>
+    <a href="http://127.0.0.1:5000/Kursk_Region_Nature" class="nubex11">Курская область</a>
+</div>
+
+<div id="form9" class="form-content">
+    <a href="http://127.0.0.1:5000/Leningrad_Region_Nature" class="nubex11">Ленинградская область</a>
+    <a href="http://127.0.0.1:5000/Lipetsk_Region_Nature" class="nubex11">Липецкая область</a>
+    <a href="http://127.0.0.1:5000/Luhansk_People_s_Republic_Nature" class="nubex11">Луганская Народная Республика</a>
+</div>
+
+<div id="form10" class="form-content">
+    <a href="http://127.0.0.1:5000/Magadan_Region_Nature" class="nubex11">Магаданская область</a>
+    <a href="http://127.0.0.1:5000/Moscow_Nature" class="nubex11">Москва</a>
+    <a href="http://127.0.0.1:5000/Moscow_Region_Nature" class="nubex11">Московская область</a>
+    <a href="http://127.0.0.1:5000/Murmansk_Region_Nature" class="nubex11">Мурманская область</a>
+</div>
+
+<div id="form11" class="form-content">
+    <a href="http://127.0.0.1:5000/Nenets_AO_Nature" class="nubex11">Ненецкий АО</a>
+    <a href="http://127.0.0.1:5000/Nizhny_Novgorod_Region_Nature" class="nubex11">Нижегородская область</a>
+    <a href="http://127.0.0.1:5000/Novgorod_Region_Nature" class="nubex11">Новгородская область</a>
+    <a href="http://127.0.0.1:5000/Novosibirsk_Region_Nature" class="nubex11">Новосибирская область</a>
+</div>
+
+<div id="form12" class="form-content">
+    <a href="http://127.0.0.1:5000/Omsk_Region_Nature" class="nubex11">Омская область</a>
+    <a href="http://127.0.0.1:5000/Orenburg_Region_Nature" class="nubex11">Оренбургская область</a>
+    <a href="http://127.0.0.1:5000/Oryol_Region_Nature" class="nubex11">Орловская область</a>
+</div>
+
+<div id="form13" class="form-content">
+    <a href="http://127.0.0.1:5000/Penza_Region_Nature" class="nubex11">Пензенская область</a>
+    <a href="http://127.0.0.1:5000/Perm_Region_Nature" class="nubex11">Пермский край</a>
+    <a href="http://127.0.0.1:5000/Primorsky_Krai_Nature" class="nubex11">Приморский край</a>
+    <a href="http://127.0.0.1:5000/Pskov_Region_Nature" class="nubex11">Псковская область</a>
+</div>
+
+<div id="form14" class="form-content">
+    <a href="http://127.0.0.1:5000/Republic_of_Adygea_Nature" class="nubex11">Республика Адыгея</a>
+    <a href="http://127.0.0.1:5000/Altai_Republic_Nature" class="nubex11">Республика Алтай</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Bashkortostan_Nature" class="nubex11">Республика Башкортостан</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Buryatia_Nature" class="nubex11">Республика Бурятия</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Dagestan_Nature" class="nubex11">Республика Дагестан</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Ingushetia_Nature" class="nubex11">Республика Ингушетия</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Kalmykia_Nature" class="nubex11">Республика Калмыкия</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Karelia_Nature" class="nubex11">Республика Карелия</a>
+    <a href="http://127.0.0.1:5000/Komi_Republic_Nature" class="nubex11">Республика Коми</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Crimea_Nature" class="nubex11">Республика Крым</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Mari_El_Nature" class="nubex11">Республика Марий Эл</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Mordovia_Nature" class="nubex11">Республика Мордовия</a>
+    <a href="http://127.0.0.1:5000/Sakha_Republic_Nature" class="nubex11">Республика Саха</a>
+    <a href="http://127.0.0.1:5000/Republic_of_North_Ossetia_Alania_Nature" class="nubex11">Республика Северная Осетия-Алания</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Tatarstan_Nature" class="nubex11">Республика Татарстан</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Tyva_Nature" class="nubex11">Республика Тыва</a>
+    <a href="http://127.0.0.1:5000/Republic_of_Khakassia_Nature" class="nubex11">Республика Хакасия</a>
+    <a href="http://127.0.0.1:5000/Rostov_Region_Nature" class="nubex11">Ростовская область</a>
+    <a href="http://127.0.0.1:5000/Ryazan_Region_Nature" class="nubex11">Рязанская область</a>
+</div>
+
+<div id="form15" class="form-content">
+    <a href="http://127.0.0.1:5000/Samara_Region_Nature" class="nubex11">Самарская область</a>
+    <a href="http://127.0.0.1:5000/St_Petersburg_Nature" class="nubex11">Санкт-Петербург</a>
+    <a href="http://127.0.0.1:5000/Saratov_Region_Nature" class="nubex11">Саратовская область</a>
+    <a href="http://127.0.0.1:5000/Sakhalin_Region_Nature" class="nubex11">Сахалинская область</a>
+    <a href="http://127.0.0.1:5000/Sverdlovsk_Region_Nature" class="nubex11">Свердловская область</a>
+    <a href="http://127.0.0.1:5000/Sevastopol_Nature" class="nubex11">Севастополь</a>
+    <a href="http://127.0.0.1:5000/Smolensk_Region_Nature" class="nubex11">Смоленская область</a>
+    <a href="http://127.0.0.1:5000/Stavropol_Territory_Nature" class="nubex11">Ставропольский край</a>
+</div>
+
+<div id="form16" class="form-content">
+    <a href="http://127.0.0.1:5000/Tambov_Region_Nature" class="nubex11">Тамбовская область</a>
+    <a href="http://127.0.0.1:5000/Tver_Region_Nature" class="nubex11">Тверская область</a>
+    <a href="http://127.0.0.1:5000/Tomsk_Region_Nature" class="nubex11">Томская область</a>
+    <a href="http://127.0.0.1:5000/Tula_Region_Nature" class="nubex11">Тульская область</a>
+    <a href="http://127.0.0.1:5000/Tyumen_Region_Nature" class="nubex11">Тюменская область</a>
+</div>
+
+<div id="form17" class="form-content">
+    <a href="http://127.0.0.1:5000/Udmurt_Republic_Nature" class="nubex11">Удмуртская Республика</a>
+    <a href="http://127.0.0.1:5000/Ulyanovsk_Region_Nature" class="nubex11">Ульяновская область</a>
+</div>
+
+<div id="form18" class="form-content">
+    <a href="http://127.0.0.1:5000/Khabarovsk_Territory_Nature" class="nubex11">Хабаровский край</a>
+    <a href="http://127.0.0.1:5000/Khanty_Mansiysk_AO_Nature" class="nubex11">Ханты-Мансийский АО</a>
+    <a href="http://127.0.0.1:5000/Kherson_Region_Nature" class="nubex11">Херсонская область</a>
+</div>
+
+<div id="form19" class="form-content">
+    <a href="http://127.0.0.1:5000/Chelyabinsk_Region_Nature" class="nubex11">Челябинская область</a>
+    <a href="http://127.0.0.1:5000/Chechen_Region_Nature" class="nubex11">Чеченская Республика</a>
+    <a href="http://127.0.0.1:5000/Chuvash_Republic_Nature" class="nubex11">Чувашская Республика</a>
+    <a href="http://127.0.0.1:5000/Chukotsiy_AO_Nature" class="nubex11">Чукотсий АО</a>
+</div>
+
+<div id="form20" class="form-content">
+    <a href="http://127.0.0.1:5000/Yamalo_Nenets_AO_Nature" class="nubex11">Ямало-Ненецкий АО</a>
+    <a href="http://127.0.0.1:5000/Yaroslavl_Region_Nature" class="nubex11">Ярославская область</a>
+</div>
+
+<script>
+    function showForm(formId) {
+        // Скрыть все формы
+        var forms = document.querySelectorAll('.form-content');
+        forms.forEach(function(form) {
+            form.style.display = 'none';
+        });
+
+        // Показать нужную форму
+        var selectedForm = document.getElementById(formId);
+        selectedForm.style.display = 'block';
+    }
+</script>
+{% endblock %}
