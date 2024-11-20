@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="topnav">
+  <a href="http://127.0.0.1:5000">Главная</a>
+  <a href="http://127.0.0.1:5000/region">Субъекты РФ</a>
+  <a href="#">Театры</a>
+  <a href="#">Кинотеатры</a>
+  <a class="active" href="#">Животные</a>
+  <a href="#">Заповедники</a>
+  <a href="#">Растения</a>
+  <a href="#">ВК</a>
+  <a href="#">Телеграм</a>
+</div>
+<h1></h1>
+<div class="topnav">
+  <a href="#">Насекомоядные</a>
+  <a href="#">Рукокрылые</a>
+  <a href="#">Грызуны</a>
+  <a class="active" href="#">Хищные</a>
+  <a href="#">Непарнокопытные</a>
+  <a href="#">Жвачные</a>
+  <a href="#">Китообразные</a>
+</div>
+<h1></h1>
+<div class="topnav">
+  <a class="active" href="#">Псовые</a>
+  <a href="#">Медвежьи</a>
+  <a href="#">Куньи</a>
+  <a href="#">Кошачьи</a>
+  <a href="#">Гиеновые</a>
+  <a href="#">Ластоногие</a>
+</div>
+<h1></h1>
+<div style="float: right;">
+    <form class="login_form_41">
+        <nav>
+            <h1>Псовые</h1>
+            <ul>
+                <li><a href="#section1">Медновский песец</a></li>
+                <li><a href="#section2">Песец</a></li>
+                <li><a href="#section3">Красный волк</a></li>
+            </ul>
+        </nav>
+        <h1></h1>
+        <h1 id="section1">Медновский песец</h1>
+        <h4>Можно найти:</h4>
+        <ul>
+            <li>На острове Медный</li>
+            <li>На острове Беринга</li>
+        </ul>
+        <h1></h1>
+        <h4>Больше информации:</h4><a href="https://ru.wikipedia.org/wiki/Медновский_песец" class="nubex">Медновский песец</a>
+        <h1></h1>
+        <h1 id="section2">Песец</h1>
+        <h4>Можно найти:</h4>
+        <ul>
+            <li>В южной части Прибайкалья</li>
+        </ul>
+        <h1></h1>
+        <h4>Больше информации:</h4><a href="https://ru.wikipedia.org/wiki/Песец" class="nubex">Песец</a>
+        <h1></h1>
+        <h1 id="section3">Красный волк</h1>
+        <h4>Можно найти:</h4>
+        <ul>
+            <li>На юге Дальнего Востока</li>
+            <li>На  Алтае</li>
+        </ul>
+        <h1></h1>
+        <h4>Больше информации:</h4><a href="https://ru.wikipedia.org/wiki/Красный_волк" class="nubex">Красный волк</a>
+    </form>
+</div>
+<img style="float: left;" src="static/img/img/animals/18.png" />
+<img style="float: left;" src="static/img/img/animals/19.png" />
+<img style="float: left;" src="static/img/img/animals/20.png" />
+{% endblock %}
